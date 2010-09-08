@@ -1,0 +1,148 @@
+[
+    {
+        "fields": {
+            "name": "Fred Flintstone"
+        }, 
+        "model": "sports.person", 
+        "pk": 1
+    }, 
+    {
+        "fields": {
+            "name": "Barney Rubble"
+        }, 
+        "model": "sports.person", 
+        "pk": 2
+    }, 
+    {
+        "fields": {
+            "name": "Bam-Bam"
+        }, 
+        "model": "sports.person", 
+        "pk": 3
+    }, 
+    {
+        "fields": {
+            "name": "Pebbles"
+        }, 
+        "model": "sports.person", 
+        "pk": 4
+    }, 
+    {
+        "fields": {
+            "name": "Dino"
+        }, 
+        "model": "sports.person", 
+        "pk": 5
+    }, 
+    {
+        "fields": {
+            "name": "Bedrock Bumblebees"
+        }, 
+        "model": "sports.team", 
+        "pk": 1
+    }, 
+    {
+        "fields": {
+            "name": "Whackity-sacks"
+        }, 
+        "model": "sports.team", 
+        "pk": 2
+    }, 
+    {
+        "fields": {
+            "name": "Premier"
+        }, 
+        "model": "sports.league", 
+        "pk": 1
+    }, 
+    {
+        "fields": {
+            "name": "Old-timers"
+        }, 
+        "model": "sports.league", 
+        "pk": 2
+    }, 
+    {
+        "fields": {
+            "departed": "2002-06-30", 
+            "joined": "2000-04-12", 
+            "league": 2, 
+            "team": 2
+        }, 
+        "model": "sports.leagueteam", 
+        "pk": 1
+    }, 
+    {
+        "fields": {
+            "departed": null, 
+            "joined": "2002-07-01", 
+            "league": 1, 
+            "team": 2
+        }, 
+        "model": "sports.leagueteam", 
+        "pk": 2
+    }, 
+    {
+        "fields": {
+            "departed": null, 
+            "joined": "2002-07-01", 
+            "league": 1, 
+            "team": 1
+        }, 
+        "model": "sports.leagueteam", 
+        "pk": 3
+    }, 
+    {
+        "fields": {
+            "departed": "2002-06-30", 
+            "joined": "2000-04-12", 
+            "league": 2, 
+            "umpire": 5
+        }, 
+        "model": "sports.leagueumpire", 
+        "pk": 1
+    }, 
+    {
+        "fields": {
+            "departed": null, 
+            "joined": "2002-07-01", 
+            "league": 1, 
+            "umpire": 5
+        }, 
+        "model": "sports.leagueumpire", 
+        "pk": 2
+    }, 
+    {
+        "fields": {
+            "departed": null, 
+            "joined": "2002-07-01", 
+            "person": 1, 
+            "role": "P", 
+            "team": 2
+        }, 
+        "model": "sports.teammember", 
+        "pk": 1
+    }, 
+    {
+        "fields": {
+            "departed": null, 
+            "joined": "2002-07-01", 
+            "person": 2, 
+            "role": "P", 
+            "team": 2
+        }, 
+        "model": "sports.teammember", 
+        "pk": 2
+    }, 
+    {
+        "fields": {
+            "departed": null, 
+            "joined": "2002-07-01", 
+            "person": 4, 
+            "role": "C", 
+            "team": 2
+        }, 
+        "model": "sports.teammember", 
+        "pk": 3
+    }
+]
