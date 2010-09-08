@@ -32,11 +32,13 @@ class Team(models.Model):
 
     def current_coaches(self):
         return Person.objects.filter(teammember__team=self,
-                teammember__role=COACH).order_by("name")
+                teammember__role=COACH, teammember__departed=None). \
+                order_by("name")
 
     def current_players(self):
         return Person.objects.filter(teammember__team=self,
-                teammember__role=PLAYER).order_by("name")
+                teammember__role=PLAYER, teammember__departed=None). \
+                order_by("name")
 
 
 class League(models.Model):
