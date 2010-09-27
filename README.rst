@@ -31,14 +31,14 @@ This talk will walk through some interesting cases of model design that I've
 encountered recently. I'll explain how I approached the problem and what we
 ended up with. These will include:
 
-    * Modeling people who might simultaneously play different roles in the
-      system. For example, a person who was a baseball player and then became a
-      coach — each role has different attributes attached to it.
-    * Modeling what appears to be a triangular dependency relationship with
-      minimal redundancy in the data description and without needing really
-      long query filters to access things.
-    * Handling date ranges (or other measured data) of different degrees of
-      accuracy and precision.
+* Modeling people who might simultaneously play different roles in the system.
+  For example, a person who was a baseball player and then became a coach —
+  each role has different attributes attached to it.
+* Modeling what appears to be a triangular dependency relationship with minimal
+  redundancy in the data description and without needing really long query
+  filters to access things.
+* Handling date ranges (or other measured data) of different degrees of
+  accuracy and precision.
 
 This isn't a presentation on theoretical database design. Rather, concrete
 examples of creating such designs and guiding the decisions by what might work
